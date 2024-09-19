@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.images {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr);
+}
+
+
+.selections-menu {
+    margin-left: 4em;
+}
+
+.title-and-pics{
+    margin-left: 4em;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+
+input {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+select {
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 50px;
+    cursor: pointer;
+}
